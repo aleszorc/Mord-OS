@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Mord OS: First cross-platform browser-based OS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Mord OS desktop & mobile](https://i.ibb.co/3rqmHcw/Mordos.png)
 
-## Available Scripts
+> Achieve unparalleled productivity without leaving your favorite browser.
 
-In the project directory, you can run:
+## Key Features
+
+Mord OS includes:
+
+- **Notes:** Create (you guessed it) notes, save them, and edit them to your heart's content.
+- **Files:** Sort (\*sigh\*) files and create new folders for the files you probably don't need.
+- **Reads:** Catch up on the latest news from around the world.
+- **Photos:** Photos that remind you that you're getting old are now just a click away.
+- **Camera:** Take photos and save them for a later viewing in the Photo app.
+- **Browser:** Explore the wonders of the World Wide Web.
+
+## Technologies & Assets
+
+Mord OS was built using the folowing technologies:
+
+- **[React]**(https://reactjs.org/) & **[Create React App]**(https://github.com/facebook/create-react-app).
+- **[TypeScript]**(https://www.typescriptlang.org/)
+- **[Styled Components]**(https://styled-components.com/)
+- **[React Router]**(https://reactrouter.com/)
+- **[React Webcam]**(https://github.com/mozmorris/react-webcam)
+- **[SWR]**(https://swr.vercel.app/)
+- **[React-Draggable]**(https://www.npmjs.com/package/react-draggable)
+- **[React Uuid]**(https://www.npmjs.com/package/react-uuid)
+
+The following assets were used:
+
+- **Fonts & Mord OS Logo:** [Font Awesome](https://fontawesome.com/)
+- **Background Image (Author: Daniel Leone):** [unsplash](https://unsplash.com/)
+
+## Additional Feature & Improvement Ideas
+
+The following features and improvements could be implemented:
+
+- Light/dark mode: This could easily be implemented using the existing custom theme scaffolding.
+- Proper token-based authentication (JWT) using an external API: Authentication (i.e. logging in) is currently being mimicked (intentionally without the use of localStorage) and could be replaced with more realistic scenarios.
+- (Global) state management: While React's Context gets the job done, third-party state management libraries could be used as the app grows in complexity.
+- Improved mobile UI: Existing mobile compatibility could be further improved with gestures for a better UX.
+- \[...endlessListOfAdditionalAppIdeas\]
+
+## How to Use the App
+
+In the project directory, run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This will run the app in development mode. Open http://localhost:3000(http://localhost:3000) to view it in your browser and use borgoth@mordos.com/12bindthem as login credentials. Have fun - I certainly did creating it!

@@ -1,26 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { createGlobalStyle } from 'styled-components';
+import theme from './theme';
+import { Routes } from './routes';
+import { Providers } from './providers';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export const GlobalStyle = createGlobalStyle`
+
+  html {
+    font-size: 16px;
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+  }
+
+  a {
+    color: ${theme.colors.pinkish};
+    text-decoration: none;
+    :visited {
+      color: ${theme.colors.pinkish}
+    }
+  }
+
+  textarea:focus, input:focus{
+    outline: none;
 }
+`;
+
+const App = () => {
+  return (
+    <Providers>
+      <GlobalStyle />
+      <Routes />
+    </Providers>
+  );
+};
 
 export default App;
