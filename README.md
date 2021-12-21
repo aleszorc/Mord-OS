@@ -19,14 +19,14 @@ Mord OS includes:
 
 Mord OS was built using the folowing technologies:
 
-- **[React]**(https://reactjs.org/) & **[Create React App]**(https://github.com/facebook/create-react-app).
-- **[TypeScript]**(https://www.typescriptlang.org/)
-- **[Styled Components]**(https://styled-components.com/)
-- **[React Router]**(https://reactrouter.com/)
-- **[React Webcam]**(https://github.com/mozmorris/react-webcam)
-- **[SWR]**(https://swr.vercel.app/)
-- **[React-Draggable]**(https://www.npmjs.com/package/react-draggable)
-- **[React Uuid]**(https://www.npmjs.com/package/react-uuid)
+- [**React**](https://reactjs.org/) & [**Create React App**](https://github.com/facebook/create-react-app).
+- [**TypeScript**](https://www.typescriptlang.org/)
+- [**Styled Components**](https://styled-components.com/)
+- [**React Router**](https://reactrouter.com/)
+- [**React Webcam**](https://github.com/mozmorris/react-webcam)
+- [**SWR**](https://swr.vercel.app/)
+- [**React-Draggable**](https://www.npmjs.com/package/react-draggable)
+- [**React Uuid**](https://www.npmjs.com/package/react-uuid)
 
 The following assets were used:
 
