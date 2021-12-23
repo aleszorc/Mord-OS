@@ -50,5 +50,3 @@ In the project directory, run:
 ### `npm start`
 
 This will run the app in development mode. Open http://localhost:3000(http://localhost:3000) to view it in your browser and use borgoth@mordos.com/12bindthem as login credentials. Have fun - I certainly did creating it!
-
-![Mord OS desktop & mobile in action](https://i.ibb.co/FzdZ5kg/Mordos1.png)
