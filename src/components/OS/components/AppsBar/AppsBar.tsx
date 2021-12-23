@@ -20,6 +20,7 @@ const AppsBarBox = styled.div`
     width: fit-content;
     bottom: 0;
     margin: 0;
+    top: 4rem;
   }
 `;
 

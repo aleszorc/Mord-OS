@@ -16,7 +16,7 @@ const InfoBarBox = styled.div`
     position: relative;
     right: 0;
     left: 0;
-    top: 0;
+    top: 4rem;
     margin: 1rem auto;
   }
 `;
